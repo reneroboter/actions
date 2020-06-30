@@ -32,7 +32,7 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
     - name: telegram
-    - uses: yanzay/notify-telegram@v0.1.0
+      uses: yanzay/notify-telegram@v0.1.0
       if: always()
       with:
         chat: ${{ secrets.chat }}
