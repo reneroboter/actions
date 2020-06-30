@@ -31,6 +31,12 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
+
+    - name: Install dependencies
+      uses: php-actions/composer@v1
+      with:
+        command: composer install
+            
     - name: telegram
       uses: yanzay/notify-telegram@v0.1.0
       if: always()
