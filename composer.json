@@ -1,0 +1,14 @@
+{
+    "name": "roboter/actions",
+    "description": "Play around with GitHub Actions.",
+    "type": "project",
+    "require": {
+        "symfony/thanks": "^1.2"
+    },
+    "authors": [
+        {
+            "name": "René Backhaus",
+            "email": "rene.roboter@posteo.de"
+        }
+    ]
+}
