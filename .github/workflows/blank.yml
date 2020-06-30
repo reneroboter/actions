@@ -35,7 +35,7 @@ jobs:
     - name: Install dependencies
       uses: php-actions/composer@v1
       with:
-        command: composer install
+        command: install
             
     - name: telegram
       uses: yanzay/notify-telegram@v0.1.0
